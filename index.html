@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://wilczektom.github.io/Startowa/ -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Startowa</title>
+<!--<base target="_blank">--><base href="." target="_blank">
+<style>
+  /* Komputer: 8 kolumn, kafelki 150x85 jak w index.html */
+  body { margin: 0 8px; background: #000; padding: 28px; }
+  html { -webkit-text-size-adjust: 100%; }
+  .page { max-width: 1296px; margin: 0 auto; }
+  .hidden-link { display: block; height: 32px; width: 160px; margin-left: auto; }
+  .grid { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 12px 10px; }
+  .blocks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .blocks .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .grid a, .pair { display: block; justify-self: center; width: 100%; max-width: 150px; }
+  .grid img { display: block; width: 100%; aspect-ratio: 150 / 85; border: 1px solid #333; }
+  .pair a { max-width: none; }
+  .pair img { aspect-ratio: 150 / 41; }
+  .pair a + a img { margin-top: 1px; }
+  hr { border: 0; border-top: 1px solid #666; margin: 19px 0 21px; }
+  .spacer { display: none; }
+  .mobile-only { display: none !important; }
+
+  /* Telefon / wąskie okno: 4 kolumny, pełna szerokość ekranu */
+  @media (max-width: 1200px) {
+    body { margin: 0; padding: 12px 0; }
+    .page { max-width: 100%; width: 100%; }
+    .hidden-link { display: none; }
+    .grid, .blocks .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px 4px; }
+    .grid a, .pair { max-width: none; }
+    .grid img { box-sizing: border-box; }
+    .blocks { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+    .grid { padding-top: 6px; }
+    hr { border: 0; margin: 0; height: 36px; }
+    .spacer { display: block; height: 26px; }
+    .mobile-only { display: block !important; }
+  }
+</style>
+<link id="chromealerabat-link" rel="stylesheet" type="text/css" href="chrome-extension://pcajbjcmckcjacdpgmpadhmnpllndknb/content.css"></head>
+<body>
+<div class="page">
+
+  <div class="grid">
+    <a href="https://www.google.pl/maps"><img src="./googlemaps.jpg" alt=""></a>
+    <a href="http://www.mapa.lodz.pl/"><img src="./log.jpg" alt=""></a>
+    <a href="https://app.conceptboard.com/app/home"><img src="./conceptboard.jpg" alt=""></a>
+    <a href="https://translate.google.pl/?sl=en&amp;tl=pl&amp;op=translate"><img src="./tlumaczgoogle.jpg" alt=""></a>
+    <a href="https://drive.google.com/drive/u/0/my-drive"><img src="./dysk google.jpg" alt=""></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./Gmail.jpg" alt=""></a>
+    <a href="https://www.bankmillennium.pl/"><img src="./millennium.jpg" alt=""></a>
+    <div class="pair"><a href="https://www.google.com/"><img src="./g-Google.jpg" alt=""></a><a href="https://www.bing.com/"><img src="./g-Bing.jpg" alt=""></a></div>
+  </div>
+
+  <hr>
+
+  <div class="blocks">
+   <div class="grid">
+    <a href="https://www.facebook.com/"><img src="./facebook.jpg" alt=""></a>
+    <a href="http://www.youtube.pl/"><img src="./youtube.jpg" alt=""></a>
+    <a href="http://www.mpk.lodz.pl/"><img src="./mpk.jpg" alt=""></a>
+    <a href="https://myradioonline.pl/?gad_source=1&amp;gad_campaignid=11052294201&amp;gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVkMgD7kssEm0BfwA3MFsIoPIQJEh47nanIZvhMS5q5PprdjJnV5sVkaAmFyEALw_wcB"><img src="./myradioonline.jpg" alt=""></a>
+    <a href="https://tvn24.pl/"><img src="./tvn24.jpg" alt=""></a>
+    <a href="http://www.sport.pl/"><img src="./sport.jpg" alt=""></a>
+    <a href="https://pl.motorsport.com/f1/schedule/2026/?all_event_types=0"><img src="./motorsport_F1.jpg" alt=""></a>
+    <a href="https://megogo.net/pl/tv?no_redirect=1"><img src="./megogoTV.jpg" alt=""></a>
+    <a href="http://www.polsatnews.pl/"><img src="./polsatnews.jpg" alt=""></a>
+    <a href="https://uml.lodz.pl/"><img src="./Lodz.pl.jpg" alt=""></a>
+    <a href="https://go.toya.net.pl/"><img src="./toyago.jpg" alt=""></a>
+    <a href="http://www.lotto.pl/"><img src="./lotto.jpg" alt=""></a>
+    <a href="http://www.expressilustrowany.pl/"><img src="./expressilustrowany.jpg" alt=""></a>
+    <a href="http://www.tvp.info/"><img src="./tvpinfo.jpg" alt=""></a>
+    <a href="https://www.worldcam.pl/mapa"><img src="./mapakamer.jpg" alt=""></a>
+    <a href="https://www.e-fotojoker.pl/"><img src="./fotojoker.jpg" alt=""></a>
+    <a href="https://lodz.wyborcza.pl/"><img src="./wyborcza_Lodz.jpg" alt=""></a>
+    <a href="https://www.rmf24.pl/"><img src="./rmf24.jpg" alt=""></a>
+    <a href="http://www.retsat1.com.pl/"><img src="./retsat1.jpg" alt=""></a>
+    <a href="https://riff.net.pl/"><img src="./riff.jpg" alt=""></a>
+    <a href="http://www.gazeta.pl/0,0.html"><img src="./gazetapl.jpg" alt=""></a>
+    <a href="http://lodz.naszemiasto.pl/"><img src="./naszemiasto.jpg" alt=""></a>
+    <a href="https://www.accuweather.com/pl/pl/od/274340/weather-forecast/274340"><img src="./accuweather.jpg" alt=""></a>
+    <a href="https://www.musicca.com/pl"><img src="./mussica.jpg" alt=""></a>
+    <a href="http://www.dzienniklodzki.pl/"><img src="./dzienniklodzki.jpg" alt=""></a>
+    <a href="http://www.onet.pl/"><img src="./onet.jpg" alt=""></a>
+    <a href="http://meteo.kilo.net.pl/"><img src="./temperaturalodz.jpg" alt=""></a>
+    <a href="https://www.nvidia.com/pl-pl/geforce/drivers/"><img src="./nVIDIA-new.jpg" alt=""></a>
+   </div>
+   <div class="spacer"></div>
+   <div class="grid">
+    <a href="https://allegro.pl/"><img src="./allegro.jpg" alt=""></a>
+    <a href="https://mediamarkt.pl/"><img src="./mediamarkt.jpg" alt=""></a>
+    <a href="http://www.benchmark.pl/"><img src="./benchmark.jpg" alt=""></a>
+    <a href="https://uindex.org/"><img src="./uIndex.jpg" alt=""></a>
+    <a href="https://allegrolokalnie.pl/"><img src="./AllegroLokalnie.jpg" alt=""></a>
+    <a href="https://www.mediaexpert.pl/"><img src="./mediaexpert.jpg" alt=""></a>
+    <a href="https://ithardware.pl/"><img src="./ithardware.jpg" alt=""></a>
+    <a href="https://1337x.to/"><img src="./1337X.jpg" alt=""></a>
+    <a href="https://aukro.pl/"><img src="./aukro.jpg" alt=""></a>
+    <a href="https://www.komputronik.pl/"><img src="./komputronik.jpg" alt=""></a>
+    <a href="https://twojepc.pl/"><img src="./twojepc.jpg" alt=""></a>
+    <a href="https://thepiratebay.org/index.html"><img src="./piratebay.jpg" alt=""></a>
+    <a href="https://www.olx.pl/"><img src="./olx.pl.jpg" alt=""></a>
+    <a href="https://www.x-kom.pl/"><img src="./x-kom.jpg" alt=""></a>
+    <a href="https://www.computerworld.pl/"><img src="./computerworld.jpg" alt=""></a>
+    <a href="http://www.napisy24.pl/"><img src="./napisy24.jpg" alt=""></a>
+    <a href="http://www.ceneo.pl/"><img src="./ceneo.jpg" alt=""></a>
+    <a href="https://www.morele.net/"><img src="./morelenet.jpg" alt=""></a>
+    <a href="https://www.chip.pl/"><img src="./chip.jpg" alt=""></a>
+    <a href="http://www.opensubtitles.org/pl/pl"><img src="./opensubtitles.jpg" alt=""></a>
+    <a href="https://pl.aliexpress.com/"><img src="./Aliexpress.jpg" alt=""></a>
+    <a href="https://www.euro.com.pl/"><img src="./rtveuroagd.jpg" alt=""></a>
+    <a href="http://www.komputerswiat.pl/"><img src="./komputerswiat.jpg" alt=""></a>
+    <a href="https://phonesdata.com/pl/compare/motorola-moto-g-5g-plus-5458760-vs-motorola-edge-60-fusion-5465215-vs-motorola-edge-70-fusion-5465516/"><img src="./PhonesData.jpg" alt=""></a>
+    <a href="https://www.temu.com/"><img src="./Temu.jpg" alt=""></a>
+    <a href="https://www.purepc.pl/"><img src="./purepc.jpg" alt=""></a>
+    <a href="https://www.in4.pl/"><img src="./in4pl.jpg" alt=""></a>
+    <a href="https://www.speedtest.pl/"><img src="./speedtest.jpg" alt=""></a>
+
+   </div>
+  </div>
+</div>
+
+
+</body></html>
